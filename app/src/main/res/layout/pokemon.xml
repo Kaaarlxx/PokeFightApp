@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_700"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/pokename2"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:background="@color/white"
+        android:paddingTop="25dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textFontWeight="20"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="253dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokename2">
+
+        <ImageView
+            android:id="@+id/pokephoto"
+            android:layout_width="253dp"
+            android:layout_height="226dp"
+            tools:layout_editor_absoluteY="103dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="226dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hpamm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textFontWeight="20"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/dmgamm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textFontWeight="20"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ppmax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textFontWeight="20"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/smdmg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textFontWeight="20"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

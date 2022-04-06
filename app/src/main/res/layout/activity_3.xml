@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity3">
+
+    <ProgressBar
+        android:id="@+id/playerhp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="615dp"
+        android:progressDrawable="@drawable/hpbar"
+        android:progressTint="@color/design_default_color_error"
+        android:scaleY="3" />
+
+    <ProgressBar
+        android:id="@+id/enemyhp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="616dp"
+        android:progressDrawable="@drawable/hpbar"
+        android:progressTint="@color/design_default_color_error"
+        android:scaleY="3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="139dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/landscape_background_pixel_art_8_bit_game_vector_21835386" />
+
+    <ImageView
+        android:id="@+id/enemy"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="216dp"
+        android:layout_weight="2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/gengarphoto" />
+
+
+    <ImageView
+        android:id="@+id/player"
+        android:layout_width="197dp"
+        android:layout_height="189dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="219dp"
+        android:layout_weight="2"
+        android:src="@mipmap/ic_launcher"
+        app:srcCompat="@drawable/landscape_background_pixel_art_8_bit_game_vector_21835386" />
+
+
+    <TextView
+        android:id="@+id/playername"
+        android:layout_width="144dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="622dp"
+        android:text="Fight"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/enemyname"
+        android:layout_width="140dp"
+        android:layout_height="83dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="621dp"
+        android:text="fight"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="89dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/hit"
+                android:layout_width="206dp"
+                android:layout_height="50dp"
+                android:text="Hit" />
+
+            <Button
+                android:id="@+id/crit"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="Crit" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/vs"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="633dp"
+        app:srcCompat="@drawable/vs" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="392dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="33dp"
+        android:progressDrawable="@drawable/hpbar"
+        android:progressTint="@color/teal_700"
+        android:scaleY="4" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="226dp"
+        android:layout_height="141dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="296dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_500"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

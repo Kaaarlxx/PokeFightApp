@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:paddingTop="10dp"
+        android:text="aaaaaaa"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/cp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_weight="1"
+        android:text="CP :"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/charmeleonphoto" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="401dp"
+        android:layout_height="5dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:fontFamily="monospace"
+        android:text="Your Abilities"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:text="HP : "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/dmg"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:text="DMG : "
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:text="PPmax :"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ssd"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_weight="1"
+        android:text="Special Skill DMG :"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/upgrade"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Upgrade" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:text="Select and fight !" />
+
+</LinearLayout>
